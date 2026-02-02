@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="38"
+    android:versionName="@string/credits_mod_version_summary"
+    package="com.mediarevolution_remote.android" xmlns:android="http://schemas.android.com/apk/res/android">   
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+    <uses-feature android:name="android.hardware.wifi"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+ <!--   <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>  --> 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <application android:allowTaskReparenting="true"
+        android:icon="@drawable/app_music"
+        android:label="MRRemote">      
+        <activity android:label="MRRemote" 
+                  android:icon="@drawable/app_music"
+                  android:name=".MRRemoteUnit">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>            
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		 <activity android:excludeFromRecents="true"
+            android:icon="@drawable/icon"
+            android:label=".udpbrowser" android:name="com.mediarevolution_remote.android.udpBrowserActivity"/>		 
+		<activity android:name=".MusicSettingsActivity"
+			android:label="@string/settings"
+			android:icon="@drawable/app_music"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:excludeFromRecents="true"
+			android:exported="true"> 
+       </activity>
+       <activity android:name="WOLSettingsActivity"
+			android:label="@string/settings"
+			android:icon="@drawable/app_music"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:excludeFromRecents="true"
+			android:exported="true">  </activity>
+    </application>      
+</manifest>

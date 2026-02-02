@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:stretchColumns="0,1,2,3,4,5" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/head_mrtitle" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mac Adress"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <EditText
+                android:id="@+id/macedit"
+                android:layout_width="195dp"
+                android:layout_height="40dip"
+                android:layout_marginTop="2dip"
+                android:ems="10"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IP Adress"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+            <EditText
+                android:id="@+id/ipedit"
+                android:layout_width="195dp"
+                android:layout_height="40dip"
+                android:layout_marginTop="2dip"
+                android:ems="10"
+                android:singleLine="true" >
+            </EditText>
+    
+        <TextView
+            android:id="@+id/ButtonWake"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_empty"
+            android:gravity="center"
+            android:text="Wake"
+            android:textColor="@android:color/white" />
+        
+        
+        <TextView
+            android:id="@+id/ButtonCloseWOL"
+            android:layout_width="match_parent"
+            android:layout_height="60dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginRight="4dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/btn_empty"
+            android:gravity="center"
+            android:text="Close"
+            android:textColor="@android:color/white" />
+
+</TableLayout>
+
+</LinearLayout>

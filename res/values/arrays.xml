@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="array_podcasts">
+   <item>Select URL</item>   
+   <item>Angeklickt</item>
+   <item>ARD Radio Tatort</item>
+   <item>ARD Ratgeber Heim und Garten</item>
+   <item>ARD Ratgeber Technik</item>
+   <item>Attack of the Show</item>
+   <item>Betthupferl</item>
+   <item>CatFish Show</item>
+   <item>Das Erste - Anne Will</item>
+   <item>Der Tag</item>
+   <item>Die Sendung mit der Maus</item>
+   <item>Die Story</item>
+   <item>Dingolstadt Comedy</item>
+   <item>Dittsche</item>
+   <item>Extra 3</item>
+   <item>Frühstück bei Stefanie</item>
+   <item>Future News</item>
+   <item>Hart aber fair</item>
+   <item>Hier und Heute</item>
+   <item>Hörspiel Pool - Bayern 2</item>
+   <item>hr1 Society</item>
+   <item>hr3 Kinotip</item>
+   <item>hr3 Praxis Dr. Hirschhausen</item>
+   <item>Kopfball</item>
+   <item>Käptn Blaubär</item>
+   <item>Lindenstrasse</item>  
+   <item>Menschen hautnah</item>
+   <item>Moment mal</item>
+   <item>Monitor</item>
+   <item>Morningshines</item>
+   <item>Münchner Runde</item>
+   <item>MyTour-USA</item>
+   <item>Nacht der Geschichten</item>
+   <item>NDR Info - Das Forum</item>
+   <item>Neues</item>
+   <item>Ottis Schlachthof</item>
+   <item>Panorama</item>
+   <item>Planet Wissen</item>
+   <item>Politikum - Das Meinungsmagazin</item>
+   <item>Quarks und Co</item>
+   <item>Quer</item>
+   <item>Schön hier</item>
+   <item>Science Magazine Podcast</item>
+   <item>SWR2 Leben</item>
+   <item>SWR2 Wissen</item>
+   <item>The New Yorker Animated Cartoons</item>
+   <item>Wissenswert</item>
+   <item>Wissen macht Ah</item>
+   <item>Zimmer Frei</item>       
+</string-array>
+
+</resources>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="@string/settings" android:key="settings">
+	<CheckBoxPreference android:key="title_active" android:summary="Fullscreen" android:title="Fullscreen" android:defaultValue="true" />
+	<!--    <CheckBoxPreference android:key="logging_active" android:summary="Write Logfiles for debugging" android:title="Write Logfiles" android:defaultValue="false" />
+    -->
+	<PreferenceCategory android:title="@string/pref_other_settings" android:key="other">
+		<PreferenceScreen android:key="credits" android:title="@string/credits">
+			<Preference android:key="mod_name" android:title="@string/credits_mod_name" android:summary="@string/credits_mod_name_summary"/>
+			<Preference android:key="mod_version" android:title="@string/credits_mod_version" android:summary="@string/credits_mod_version_summary"/>
+		</PreferenceScreen>
+	</PreferenceCategory>
+	
+	
+</PreferenceScreen>

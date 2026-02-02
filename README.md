@@ -1,7 +1,7 @@
 # AndroidRemote
 Old Remote i made for my player around...2008, with motorola studio that time
     
-MR-Android-Remote (The 2008 Time Capsule) 📱🦕    
+MR-Android-Remote (The Time Capsule) 📱🦕    
     
 Language: Java (Android)   
 Status: 🦕 Fossil / Legacy Code    

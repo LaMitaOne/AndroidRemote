@@ -5,7 +5,7 @@ MR-Android-Remote (The 2008 Time Capsule) 📱🦕
     
 Language: Java (Android)   
 Status: 🦕 Fossil / Legacy Code    
-Year: 2008 (Android Stone Age)    
+Year: 2008-12 (Android Stone Age)    
 What is this?   
     
 This is a Wi-Fi Remote Control I wrote back in 2008 to control my "Media Revolution" Windows player.   

@@ -21,7 +21,7 @@ Features (Back in the Day)
     
 This is archival code.
    
-    It was written for very old Android versions (likely Cupcake/Donut).   
+    It was written for very old Android versions (likely Cupcake/Donut, i have no idea anymore).   
     The IDE (Motorola Studio) is extinct.   
     It probably won't compile on modern Android Studio without a time machine.   
    

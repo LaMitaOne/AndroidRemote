@@ -28,3 +28,8 @@ This is archival code.
 Why upload it?   
 
 maybe still some can use some of the ideas :P   
+
+
+    btw -> the apk of it still works today :P   
+   
+![photo_2026-02-02_15-54-16](https://github.com/user-attachments/assets/8070ea59-1013-4a09-a54d-2fcbe803a75a)
